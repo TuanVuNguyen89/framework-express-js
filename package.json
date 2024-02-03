@@ -1,0 +1,34 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "nodemon --inspect src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TuanVuNguyen89/test-node-js.git"
+  },
+  "keywords": [
+    "ntuanvu89",
+    "nodejs",
+    "nodejs",
+    "provip"
+  ],
+  "author": "ntuanvu89",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuanVuNguyen89/test-node-js/issues"
+  },
+  "homepage": "https://github.com/TuanVuNguyen89/test-node-js#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3"
+  }
+}
